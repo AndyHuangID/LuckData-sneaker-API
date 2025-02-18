@@ -10,17 +10,23 @@ Sneaker API is a powerful tool that integrates multiple sneaker websites, design
 
 python
 
-import requests
+    import requests
 
-headers = {
-    'X-Luckdata-Api-Key': 'f4df7698ed833e09934da918bddd9b2a'
-}
-
-json_data={}
-
-response = requests.get(
-    'https://luckdata.io/api/sneaker-API/get_7go9?url=https://www.billys-tokyo.net/shop/g/g6383800022045/',
-    headers=headers,
+    headers = {
+        'X-Luckdata-Api-Key': 'f4df7698ed833e09934da918bddd9b2a'
+    }
     
-)
-print(response.json())
+    json_data={}
+    
+    response = requests.get(
+        'https://luckdata.io/api/sneaker-API/get_7go9?url=https://www.billys-tokyo.net/shop/g/g6383800022045/',
+        headers=headers,
+        
+    )
+    print(response.json())
+
+shell
+
+    curl -X GET "https://luckdata.io/api/sneaker-API/get_7go9?url=https://www.billys-tokyo.net/shop/g/g6383800022045/"  -H "X-Luckdata-Api-Key":"f4df7698ed833e09934da918bddd9b2a" 
+
+more ：<a target="_blank" rel="" href="https://luckdata.io/marketplace/detail/sneaker-API"><strong>Sneaker API</strong></a>
