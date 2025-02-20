@@ -13,7 +13,7 @@ python
     import requests
 
     headers = {
-        'X-Luckdata-Api-Key': 'f4df7698ed833e09934da918bddd9b2a'
+        'X-Luckdata-Api-Key': 'Your API key'
     }
     
     json_data={}
@@ -27,6 +27,6 @@ python
 
 shell
 
-    curl -X GET "https://luckdata.io/api/sneaker-API/get_7go9?url=https://www.billys-tokyo.net/shop/g/g6383800022045/"  -H "X-Luckdata-Api-Key":"f4df7698ed833e09934da918bddd9b2a" 
+    curl -X GET "https://luckdata.io/api/sneaker-API/get_7go9?url=https://www.billys-tokyo.net/shop/g/g6383800022045/"  -H "X-Luckdata-Api-Key":"Your API key" 
 
 more ：<a target="_blank" rel="" href="https://luckdata.io/marketplace/detail/sneaker-API"><strong>Sneaker API</strong></a>
