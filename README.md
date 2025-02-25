@@ -1,5 +1,7 @@
 # LuckData-sneaker-API
 
+Luckdata provides an API with 100 free credits every month. This allows small businesses or individuals with low data requirements to use the API for tasks such as testing and data analysis.
+
 Customized services for enterprise-level clients with diverse and large-scale data crawling needs, please contact us.
 
 API Overview
